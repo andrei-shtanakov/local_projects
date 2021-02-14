@@ -1,3 +1,3 @@
 FROM ubuntu
 RUN apt-get update
-RUN apt-get nstall tree
+RUN apt-get install tree
