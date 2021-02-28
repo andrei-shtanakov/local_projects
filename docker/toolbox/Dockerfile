@@ -1,3 +1,3 @@
 FROM ubuntu
-RUN apt-get update
-RUN apt-get install tree
+RUN apt-get update && \
+    apt-get install tree
